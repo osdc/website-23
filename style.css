@@ -7,7 +7,9 @@
   background-color: #141619;
   z-index:1;
 }
-
+a{
+    text-decoration: none;
+}
 /* header */
 
 .header {
@@ -48,6 +50,10 @@
 
 .navbar li:hover{
     font-size: 1.2rem;
+}
+
+.navbar li a{
+    color : white;
 }
 
 /* logosection */
