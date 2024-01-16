@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <div className="mt-24 mb-10 w-10/12 m-auto">
+      <div className="mt-24 mb-10 w-10/12 m-auto" id="about">
         <div className="text-3xl font-semibold text-center text-white">About OSDC</div>
         <div className="text-lg text-center text-white mt-12">
           <div className="mt-4">
