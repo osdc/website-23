@@ -1,4 +1,4 @@
-import Navbar from './Components/Navbar/Navbar'
+// import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About'
 import Intro from './Components/Intro/Intro'
 import Social from './Components/Socials/social'
