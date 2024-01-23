@@ -3,7 +3,7 @@ const About = () => {
     <>
       <div className="mt-24 mb-10 w-10/12 m-auto" id="about">
         <div className="text-3xl font-semibold text-center text-white">About OSDC</div>
-        <div className="text-lg text-center text-white mt-12">
+        <div className="text-lg text-left text-white mt-12 sm:text-center">
           <div className="mt-4">
             We are an Open Source Community based in and around Jaypee Institute
             of Information Technology, Noida, India. A community of web

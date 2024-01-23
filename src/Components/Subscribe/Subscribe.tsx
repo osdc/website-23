@@ -13,7 +13,7 @@ const Subscribe = () => {
 
   return (
     <div className='flex items-center flex-col my-24'>
-      <div className="text-white font-semibold text-3xl">Subscribe to Our Newsletter</div>
+      <div className="text-white font-semibold text-3xl text-center">Subscribe to Our Newsletter</div>
       <div className='my-6'>
         <input
           type="email"

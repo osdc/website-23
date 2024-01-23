@@ -1,13 +1,14 @@
 import osdc from "/assets/osdc.png";
+import './intro.css'
 
 const Intro = () => {
   return (
-    <div className="flex justify-center flex-col items-center mt-10 md:mt-0 ">
-      <div>
-        <img src={osdc} alt="" className="relative z-0" />
+    <div className="intro flex justify-center flex-col items-center">
+      <div className="flex justify-center">
+        <img src={osdc} alt="" className="osdc-image relative z-0"/>
         {/* <div className='text-white text-center text-2xl'>Open Source Developers Community</div> */}
       </div>
-      <div className="text-2xl text-white">
+      {/* <div className="text-2xl text-white">
         <div
           className="rounded-full h-60 w-60 blur-3xl absolute"
           style={{
@@ -21,7 +22,7 @@ const Intro = () => {
             JODC SERVER
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

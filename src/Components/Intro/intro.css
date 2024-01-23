@@ -1,0 +1,16 @@
+.intro {
+  height: 100vh;
+}
+
+.osdc-image {
+  border: 5px solid transparent;
+  width:90%;
+  border-image: linear-gradient(
+    90deg,
+    rgb(245, 0, 87) 0%,
+    rgb(36, 35, 35) 35%,
+    rgb(0, 176, 255) 60%,
+    rgb(118, 255, 3) 100%
+  );
+  border-image-slice: 1;
+}
