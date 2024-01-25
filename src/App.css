@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body{
-  background: #000;
+  background:linear-gradient(rgba(7, 7, 7, 0.5),rgba(0,0,0,.5)),url(/public/assets/bg.jpeg);
 }

@@ -1,14 +1,19 @@
 import osdc from "/assets/osdc.png";
-import './intro.css'
+import { FaArrowDown } from "react-icons/fa";
+import "./intro.css";
 
 const Intro = () => {
   return (
-    <div className="intro flex justify-center flex-col items-center">
-      <div className="flex justify-center">
-        <img src={osdc} alt="" className="osdc-image relative z-0"/>
-        {/* <div className='text-white text-center text-2xl'>Open Source Developers Community</div> */}
-      </div>
-      {/* <div className="text-2xl text-white">
+    <>
+      <div
+        className="intro flex justify-center flex-col items-center"
+        id="home"
+      >
+        <div className="flex justify-center glowing-image">
+          <img src={osdc} alt="" className="osdc-image relative z-0" />
+          {/* <div className='text-white text-center text-2xl'>Open Source Developers Community</div> */}
+        </div>
+        {/* <div className="text-2xl text-white mt-48">
         <div
           className="rounded-full h-60 w-60 blur-3xl absolute"
           style={{
@@ -23,7 +28,9 @@ const Intro = () => {
           </button>
         </div>
       </div> */}
-    </div>
+      </div>
+      <a href="#about" className="downarrow"><FaArrowDown /></a>
+    </>
   );
 };
 
