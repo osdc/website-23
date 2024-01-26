@@ -10,7 +10,8 @@ const Social = () => {
           {Data.map((item, index) => (
             <div className="w-11 h-14 mx-2 transfrom transition-transform hover:scale-125 duration-500 cursor-pointer" key={index}>
               <a href={item.link} target="_blank">
-              <img src={item.img} alt={item.alt} className="socials-icons" />
+              {/* <img src={item.img} alt={item.alt} className="socials-icons" /> */}
+              <div className="text-4xl">{item.img}</div>
               </a>
             </div>
           ))}

@@ -1,28 +1,34 @@
+import { FaDiscord } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 const Data = [
   {
-    img: "/assets/socials/discord.png",
+    img: <FaDiscord />,
     alt: "Discord Logo",
-    link: "https://discord.com/invite/Yaq3eNBrwW",
+    link: "https://discord.com/inv",
   },
   {
-    img: "/assets/socials/telegram.png",
+    img: <FaTelegram />,
     alt: "Telegram Logo",
     link: "https://t.me/jiitosdc",
   },
   {
-    img: "/assets/socials/github.png",
+    img: <FaTwitter />,
+    alt: "Twitter Logo",
+    link: "https://twitter.com/osdcjiit",
+  },
+  {
+    img: <FaFacebook />,
+    alt: "Facebook Logo",
+    link: "https://www.facebook.com/groups/jiitlug",
+  },
+  {
+    img: <FaGithub />,
     alt: "Github Logo",
     link: "https://github.com/osdc",
-  },
-  {
-    img: "/assets/socials/twitter.png",
-    alt: "Twitter Logo",
-    link:'https://twitter.com/osdcjiit'
-  },
-  {
-    img: "/assets/socials/facebook.png",
-    alt: "Facebook Logo",
-    link:'https://www.facebook.com/groups/jiitlug'
   },
 ];
 

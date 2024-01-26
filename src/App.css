@@ -6,5 +6,5 @@
 }
 
 body{
-  background:linear-gradient(rgba(7, 7, 7, 0.5),rgba(0,0,0,.5)),url(/public/assets/bg.jpeg);
+  background:linear-gradient(rgba(7, 7, 7, 0.5),rgba(0,0,0,.5)),url(/assets/bg.jpeg);
 }
