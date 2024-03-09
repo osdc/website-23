@@ -8,7 +8,7 @@ const Data = [
   {
     img: <FaDiscord />,
     alt: "Discord Logo",
-    link: "https://discord.com/inv",
+    link: "https://discord.gg/pyxbXFCgUY",
   },
   {
     img: <FaTelegram />,
